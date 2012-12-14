@@ -1,6 +1,6 @@
-This hook adds a new authentication module for Liferay /api services.
+This hook adds a new authentication module for Liferay 6.1 /api/* services.
 
-User can specify in his/her details custom application token. 3rd party applications can use the token to authenticate themselves.
+User can specify in his/her account details custom application token. 3rd party applications can use the token to authenticate themselves.
 
 3rd party applications can specify the authentication token using:
 
@@ -23,7 +23,7 @@ Download sources using the GitHub "ZIP" button
 
 Call `mvn clean package' and copy the built WAR file into deploy directory.
 
-Or edit pom.xml, define correct location for: <liferay.auto.deploy.dir> and call `mvn clean package liferay:deploy'
+Or edit pom.xml, define correct location for: &lt;liferay.auto.deploy.dir&gt; and call `mvn clean package liferay:deploy'
 
 
 Licence
